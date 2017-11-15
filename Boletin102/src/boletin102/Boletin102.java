@@ -21,7 +21,7 @@ public class Boletin102 {
         int secret, nInt, guess, cont, dif;
         String again, intentos, guessString;
         do {
-            secret = 1; //(int) (Math.random() * (51 - 1)) + 1;
+            secret = (int) (Math.random() * (51 - 1)) + 1;
             do {
                 intentos = JOptionPane.showInputDialog("Ingrese el numero de intentos: ");
 
